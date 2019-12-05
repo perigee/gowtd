@@ -1,2 +1,7 @@
 # gowtd
-World Trading Data golang sdk
+
+## Singleton server
+
+A gRPC server which:
+
+1. fetch the data from World Trading Data
