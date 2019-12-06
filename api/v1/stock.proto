@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+message StockRequest {
+	string symbol = 1;
+	string api_token = 2;
+	string sort_order = 3;
+	string sort_by = 4;
+}
+
+message Ticker {
+	string symbol = 1;
+	string 
+}
+
+
+message IntraTicker {
+	float32 open=1;
+	float32 close=2;
+	float32 high=3;
+	float32 low=4;
+	uint32 volume=5;
+}
+
+message StockResponse {
+		
+}
+
